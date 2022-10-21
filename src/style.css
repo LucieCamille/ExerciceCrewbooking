@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.app {
+  margin: 5rem;
+  padding: 5rem;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.counter {
+  box-shadow: 0 0 5px 2px #eeeeee;
+  background-color: #fff;
+  padding: 2rem 4rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.counter__nbr {
+  font-size: 2.5rem;
+}
+
+.btn_wrapper__btn {
+  padding: 1rem;
+  border: none;
+  box-shadow: 0 0 0 2px #aaaaaa;
+  background-color: #eeeeee;
+  border-radius: .5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn_wrapper__btn:hover {
+  background-color: #cccccc;
+}
